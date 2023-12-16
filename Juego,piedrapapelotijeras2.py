@@ -18,9 +18,9 @@ print (a + b + c + d)
 
 #Con este comando, espero a que la computadora genere una respuesta aleatoria
 import random
-random.randrange(1,2,3)
+random.choice(f"{1}'Piedra',{2}'Papel',{3}Tijeras")
 
-a= random.randrange
+a= random.choice
 
 #Aqui intento crear la repeticion del programa, solo tres veces hasta lograr la victoria
 
@@ -68,6 +68,7 @@ while True:
     else:
         (a == {3} < jugada_usuario == {1})
         print("Piedra le gana a tijeras. Ganaste")
-        continue
+        break
 
-#No se porque, la computadora siempre escoge tijeras pero independientemente de la seleccion del jugador, siempre lo coloca como empate.
+#Despues de cambiar el tipo de random me sigue saliendo la falla de que la computadora siempre escoge tijeras, independientemente de la seleccion del jugador, siempre lo coloca como empate.
+#Ayuda diosito, ya no quiero ser tu mejor guerrera
